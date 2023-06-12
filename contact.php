@@ -40,7 +40,7 @@ if($requestHandler->isPost()) {
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
             $mail->Username = "maherbenrhoumaa@gmail.com";
-            $mail->Password = "algszchvhpspeiru";
+            $mail->Password = "************";
             $mail->Port = 25;
             $mail->IsHTML(true);
             $mail->From = $email_from;
